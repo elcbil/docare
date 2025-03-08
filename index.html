@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Tailwind Learn</title>
+    <link href="src/output.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">LOGO</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Grooming</a></li>
-            <li><a href="#">About Us</a></li>
+    <nav class="flex items-center justify-between px-6 py-4" style="background-color: #FDE7BB; color: #555555;">
+        <!-- Logo -->
+        <div>
+            <img src="logo.png" alt="Logo" class="w-10 h-10">
+        </div>
+        
+        <!-- Menu Tengah -->
+        <ul class="flex space-x-6 text-[#555555]">
+            <li><a href="#" class="hover:text-gray-700">Home</a></li>
+            <li><a href="#" class="hover:text-gray-700">Product</a></li>
+            <li><a href="#" class="hover:text-gray-700">Review</a></li>
+            <li><a href="#" class="hover:text-gray-700">About Us</a></li>
         </ul>
-        <button class="login-btn">Login</button>
+        
+        <!-- Button Login -->
+        <button class=" px-4 py-2 rounded-lg font-semibold" style="background: linear-gradient(to right, #696562, #FEF3DD); color: #555555;">Login</button>
     </nav>
-
-    <script src="script.js"></script>
 </body>
 </html>
