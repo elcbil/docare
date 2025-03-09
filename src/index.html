@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Learn</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="bg-neutral-50">
+    <nav class="flex items-center justify-between px-6 py-4 bg-stone-600">
+        <!-- Logo -->
+        <div>
+            <img src="../assets/pict/logo.png" alt="Logo" class="w-12 h-12">
+        </div>
+        
+        <!-- Menu Tengah -->
+        <ul class="flex space-x-15 text-neutral-50">
+            <li><a href="#" class="hover:text-gray-900">Home</a></li>
+            <li><a href="#" class="hover:text-gray-900">Product</a></li>
+            <li><a href="#" class="hover:text-gray-900">Review</a></li>
+            <li><a href="#" class="hover:text-gray-900">About Us</a></li>
+        </ul>
+        
+        <!-- Button Login -->
+        <button class="px-9 py-2 rounded-lg font-semibold bg-stone-400 text-stone-50" >Login</button>
+    </nav>
+
+    <main>
+        <section class="flex flex-col md:flex-row items-center justify-between px-8 py-12 bg-gray-100">
+            <!-- Kiri (Teks & Tombol) -->
+            <div class="md:w-1/2 text-center md:text-left ml-20">
+              <h1 class="text-6xl font-bold text-stone-600 leading-20 mb-4">Great Love and Big Care for the Lovely One</h1>
+              <p class="text-stone-600 mb-6 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore libero error alias, ullam impedit ab tempore voluptate at non recusandae dolores minima dolorum possimus quidem fugiat laudantium iste nesciunt unde.</p>
+              <button class="bg-gradient-to-r from-stone-600 to-stone-400 text-white px-6 py-3 rounded-lg shadow-md hover:opacity-80 transition">Discover</button>
+            </div>
+          
+            <!-- Kanan (Gambar) -->
+            <div class="md:w-1/4 mt-6 md:mt-0 mr-20">
+              <img src="../assets/pict/hero.png" alt="Gambar Placeholder" class="w-full max-w-md mx-auto">
+            </div>
+          </section>
+          
+    </main>
+</body>
+</html>
